@@ -25,7 +25,7 @@
     flex-direction: column;
  }
  .home .logo img{
-    width: 100px;
+    width: 230px;
     height: 100px;
     object-fit: cover;
  }
@@ -67,8 +67,8 @@
     width: 50%;
  }
  .home .home-content .home-content-right img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     border-radius: 30px;
  }
  
@@ -81,34 +81,31 @@
  }
  .content .main-content{
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 10px;
  }
  .content .main-content .content-text{
     width: 25%;
-    min-height: 500px;
     margin-top: 50px;
  }
  .content .main-content .content-text h2{
     font-weight: bold;
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 10px;
     line-height: 1.5;
  }
  .content .main-content .content-text p{
-    width: 75%;
+    width: 80%;
     line-height: 1.5;
     font-size: 18px;
     color: var(--secondary-color);
  }
  .content .main-content .content-image{
     width: 25%;
-    min-height: 500px;
  }
  .content .main-content .content-image img{
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     border-radius: 20px;
  }
  .content .main-content .content-image{
@@ -128,26 +125,32 @@
     transform: translate(-50%, -50%);
     visibility: hidden;
  }
+ .content .main-content .content-image .icon img{
+   padding: 10px;
+    width: 25px;
+    height: 25px;
+ }
  .content .main-content .content-image:hover .icon{
     visibility: visible;
     transition: all 0.3s linear;
  }
  .content .main-content .small-content{
     width: 25%;
-    min-height: 500px;
     display: flex;
     flex-direction: column;
     gap: 10px;
  }
  .content .main-content .small-content .content-top img{
     width: 100%;
-    height: 250px;
+    height: 100%;
     border-radius: 20px;
+    object-fit: cover;
  }
  .content .main-content .small-content .content-pottom img{
     width: 100%;
-    height: 170px;
+    height: 100%;
     border-radius: 20px;
+    object-fit: cover;
  }
  .content .main-content .small-content .content-top .icon img{
     width: 20px;
@@ -160,6 +163,7 @@
  .content .main-content .small-content .content-top,
  .content .main-content .small-content .content-pottom{
     position: relative;
+    height: 100%;
  }
  .content .main-content .small-content .content-top .icon,
  .content .main-content .small-content .content-pottom .icon{
@@ -200,7 +204,7 @@
     height: 400px;
   }
   .about .about-left img{
-   width: 50%;
+   width: 100%;
    height: 400px;
  }
  .about .about-right{
